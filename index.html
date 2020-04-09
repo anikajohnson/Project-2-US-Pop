@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>US Population Data</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- start nav bar -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/Project-2-US-Pop/index.html">US Population Data</a>
+      </div>
+    </div>
+  </nav>
+  <!-- end nav bar -->
+
+
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h2>United States Population Data</h2>
+        <p>Use the interactive charts below to explore the dataset</p>
+      </div>
+    </div>
+    
+    <div class="row">
+    
+      <div class="col-md-2">
+          <!-- start selector section -->
+        <div class="well">
+          <h5>Select Year:</h5>
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <!-- end selector section -->
+
+        <!-- start demographic info section -->
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Demographic Info</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+        <!-- end demographic info section -->
+      </div>
+    <!-- start bar chart -->
+      <div class="col-md-5">
+        <div id="bar"></div>
+      </div>
+    <!-- start guage chart -->
+      <div class="col-md-5">
+        <div id="gauge"></div>
+      </div>
+      <!-- end  guage chart -->
+    </div>
+    <!-- start bubble chart -->
+    <div class="row">
+      <div class="col-md-12">
+        <div id="bubble"></div>
+      </div>
+    </div>
+    <!-- end bubble chart -->
+  </div>
+<!-- start script to run charts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="./static/js/app.js"></script>
+<!-- end script to run charts -->
+
+</body>
+
+</html>
