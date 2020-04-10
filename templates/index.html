@@ -3,12 +3,28 @@
 
 <head>
   <meta charset="UTF-8">
+  <!-- responsive display -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- title in browser tab -->
   <title>US Population Data</title>
+
+<!-- start import styles -->
+  <!-- import bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+  <!-- import css -->
   <link rel="stylesheet" href="style.css">
+<!-- end import styles -->
+
+<!-- start import libraries -->
+  <!-- import chart.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <!-- import plotly -->
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <!-- import d3 library -->
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+<!-- end import libraries -->
 
   <!-- start nav bar -->
   <nav class="navbar navbar-default">
@@ -53,17 +69,17 @@
         </div>
         <!-- end demographic info section -->
       </div>
-    <!-- start bar chart -->
+    <!-- start bar chart placeholder -->
       <div class="col-md-5">
         <div id="bar"></div>
       </div>
-    <!-- start guage chart -->
+    <!-- start guage chart placeholder -->
       <div class="col-md-5">
         <div id="gauge"></div>
       </div>
-      <!-- end  guage chart -->
+      <!-- end  guage chart placeholder -->
     </div>
-    <!-- start bubble chart -->
+    <!-- start bubble chart placeholder-->
     <div class="row">
       <div class="col-md-12">
         <div id="bubble"></div>
@@ -71,11 +87,9 @@
     </div>
     <!-- end bubble chart -->
   </div>
-<!-- start script to run charts -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+  <!-- import javascript code -->
   <script src="./static/js/app.js"></script>
-<!-- end script to run charts -->
 
 </body>
 
