@@ -1,20 +1,4 @@
-﻿,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-United Nations,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Population Division,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Department of Economic and Social Affairs,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-World Population Prospects 2019,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"File POP/7-2: Male population by five-year age group, region, subregion and country, 1950-2100 (thousands)",,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"Estimates, 1950 - 2020",,,,,,,,,,,,,,,,,,,,,,,,,,,,
-POP/DB/WPP/Rev.2019/POP/F07-2,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"© August 2019 by United Nations, made available under a Creative Commons license CC BY 3.0 IGO: http://creativecommons.org/licenses/by/3.0/igo/",,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"Suggested citation: United Nations, Department of Economic and Social Affairs, Population Division (2019). World Population Prospects 2019, Online Edition. Rev. 1.",,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,Male population by five-year age group (thousands),,,,,,,,,,,,,,,,,,,,
-Index,Variant,Region,Notes,Country code,Type,Parent code,Reference date (as of 1 July),0-4,5-9,10-14,15-19,20-24,25-29,30-34,35-39,40-44,45-49,50-54,55-59,60-64,65-69,70-74,75-79,80-84,85-89,90-94,95-99,100+
+﻿Index,Variant,Region,Notes,Country code,Type,Parent code,Reference date (as of 1 July),0-4,5-9,10-14,15-19,20-24,25-29,30-34,35-39,40-44,45-49,50-54,55-59,60-64,65-69,70-74,75-79,80-84,85-89,90-94,95-99,100+
 1,Estimates,WORLD,,900,World,0,1950,  172 420,  138 298,  133 686,  122 155,  113 207,  97 626,  84 570,  81 447,  73 163,  63 548,  52 644,  42 560,  34 381,  25 077,  16 577,  9 344,  3 877,  1 297,   317,   59,   9
 2,Estimates,WORLD,,900,World,0,1955,  207 941,  161 087,  134 817,  130 542,  118 354,  109 515,  94 211,  81 154,  77 551,  68 433,  58 722,  46 808,  36 007,  26 899,  17 544,  9 942,  4 466,  1 314,   297,   47,   6
 3,Estimates,WORLD,,900,World,0,1960,  221 606,  196 203,  158 035,  131 917,  126 961,  115 443,  106 321,  90 924,  77 485,  73 198,  63 488,  52 410,  39 688,  28 289,  18 948,  10 561,  4 791,  1 558,   308,   46,   5
