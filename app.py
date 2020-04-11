@@ -30,6 +30,7 @@ base = automap_base()
 base.prepare(engine, reflect=True)
 
 # Save reference to the table
+### update table name
 table = base.classes.tablename
 
 # Flask Setup
@@ -48,4 +49,26 @@ def IndexRoute():
 
     webpage = render_template("index.html")
     return webpage
+
+# route to query database for population pyramid 
+@app.route("/pop_pyramid")
+def QueryPopulation():
+    ''' Query the database for population numbers and return the results as a JSON. '''
+
+    # Open a session, run the query, and then close the session again
+    session = Session(engine)
+    results = session.query(table.country, table.iso3, table.totalpopulation).all()
+    session.close 
+
+    # Create a list of dictionaries, with each dictionary containing one row from the query. 
+    all_population = []
+    for country, iso3, totalpopulation in results:
+        dict = {}
+        dict["country"] = country
+        dict["iso3"] = iso3
+        dict["totalpopulation"] = totalpopulation
+        all_population.append(dict)
+
+    # Return the jsonified result. 
+    return jsonify(all_population)
 
