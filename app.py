@@ -15,9 +15,11 @@ import config
 # get username and password from config.py
 username = config.username
 password = config.password 
+#username = "postgres"
+#password = "postgres"
 
 ### define database variable    
-database_name = 'DatabaseName' # Created in Week 9, Night 1, Exercise 08-Stu_CRUD 
+database_name = 'Population' # Created in Week 9, Night 1, Exercise 08-Stu_CRUD 
 connection_string = f'postgresql://{username}:{password}@localhost:5432/{database_name}'
 
 
@@ -105,7 +107,7 @@ def QuerySexPopulation():
     for r_0_4, r_5_9, r_10_14, r_15_19, r_20_24, r_25_29, r_30_34, r_35_39, r_40_44, r_45_49, r_50_54, r_55_59, r_60_64, r_65_69, r_70_74, r_75_79, r_80_84, r_85_89, r_90_94, r_95_99, r_100_105 in results:
         dict = {}
 
-        dict["r_0_4"] = r_5_9
+        dict["r_0_4"] = r_0_4
         dict["r_5_9"] = r_5_9 
         dict["r_10_14"] = r_10_14
         dict["r_15_19"] = r_15_19
